@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Droid/Signos.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat) - API 19" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Signos/Model/SignoItem.cs">
+    <Files>
+      <File FileName="Signos/Model/SignoItem.cs" Line="25" Column="24" />
+      <File FileName="Signos/REST/RestAPI.cs" Line="47" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Emprestimo/Projects/Xamarin/Signos/Signos/DB/DatabaseGeneric.cs" line="72" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

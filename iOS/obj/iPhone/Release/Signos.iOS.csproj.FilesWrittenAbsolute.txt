@@ -1,0 +1,17 @@
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/ibtool/LaunchScreen.nib
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/actool/partial-info.plist
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/actool/asset-manifest.plist
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/actool/_PartialAppManifest.items
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/actool/_BundleResourceWithLogicalName.items
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/optimized/
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.iOS.exe.mdb
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.iOS.exe
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/Signos.iOS.exe
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/Signos.iOS.exe.mdb
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Xamarin.Forms.Platform.iOS.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Xamarin.Forms.Core.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Xamarin.Forms.Xaml.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.dll.mdb

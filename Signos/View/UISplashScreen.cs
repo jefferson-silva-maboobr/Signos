@@ -65,10 +65,8 @@ namespace Signos
 
 		private async Task GoToCarouselAsync ()
 		{
-			bool load = await RestAPI.Instance.RefreshDataAsync ();
-			if (load) {
-				App.Current.MainPage = new Carousel ();
-			}
+			await RestAPI.Instance.RefreshDataAsync ();
+			App.Current.MainPage = new Carousel ();
 		}
 	}
 }

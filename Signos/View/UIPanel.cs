@@ -3,6 +3,7 @@
 using Xamarin.Forms;
 using System.Collections.Generic;
 using Signos;
+using System.Threading.Tasks;
 
 namespace Zodiaco
 {
@@ -90,29 +91,32 @@ namespace Zodiaco
 					return parent.Width;
 				}),
 				Constraint.RelativeToParent ((parent) => {
-					return 50;
+					return 45;
 				}));
 
 			_message = new Label {
-				FontSize = 16,
-				TextColor = Color.Gray
+				FontSize = 12,
+				TextColor = Color.Gray,
+				XAlign = TextAlignment.Center,
+				YAlign = TextAlignment.Center
 			};
 
 			RelativeLayout _cardMessageInside = new RelativeLayout ();
-			_cardMessageInside.WidthRequest = 200;
-			_cardMessageInside.HeightRequest = 145;
 			_cardMessageInside.BackgroundColor = Color.White;
 			_cardMessageInside.GestureRecognizers.Add (HideCardGestureRecognizer);
-			_cardMessageInside.Padding = new Thickness (15, 5, 15, 10);
 
 			_cardMessageInside.Children.Add (_message, 
-				Constraint.Constant (0), 
-				Constraint.Constant (25),
 				Constraint.RelativeToParent ((parent) => {
-					return parent.Width;
+					return (parent.Width / 2) - (_message.Width / 2);
 				}),
 				Constraint.RelativeToParent ((parent) => {
-					return parent.Height;
+					return (parent.Height / 2) - (_message.Height / 2);
+				}),
+				Constraint.RelativeToParent ((parent) => {
+					return 260;
+				}),
+				Constraint.RelativeToParent ((parent) => {
+					return 120;
 				}));
 
 			_cardLayout = new StackLayout ();
@@ -126,13 +130,13 @@ namespace Zodiaco
 					return parent.Width / 2 - _cardLayout.Width / 2;
 				}),
 				Constraint.RelativeToParent ((parent) => {
-					return 100;
+					return 120;
 				}),
 				Constraint.RelativeToParent ((parent) => {
-					return parent.Width / 1.2;
+					return parent.Width / 1.3;
 				}),
 				Constraint.RelativeToParent ((parent) => {
-					return parent.Height / 8;
+					return parent.Height / 5;
 				}));
 
 			int countPos = 0;
@@ -155,7 +159,6 @@ namespace Zodiaco
 					BackgroundColor = Color.Transparent,
 					XAlign = TextAlignment.Center,
 					YAlign = TextAlignment.Center,
-					FontFamily = "Margot-Regular"
 				};
 
 				Image image = new Image {

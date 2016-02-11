@@ -7,6 +7,9 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/FormsViewGroup.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/Xamarin.Forms.Core.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/Xamarin.Forms.Xaml.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/SQLite-net.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/Mono.CSharp.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/SQLitePCL.raw.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/System.Core.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/Signos.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/mscorlib.dll
@@ -19,4 +22,7 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/System.Runtime.Serialization.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/System.ServiceModel.Internals.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/System.Net.Http.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/Newtonsoft.Json.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/Microsoft.CSharp.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/System.ServiceModel.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/android/assets/System.Xml.Linq.dll

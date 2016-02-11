@@ -85,6 +85,8 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"SQLite-net.dll",
+		"SQLitePCL.raw.dll",
 		"Signos.dll",
 		"System.Diagnostics.Tracing.dll",
 		"System.Reflection.Emit.ILGeneration.dll",
@@ -93,6 +95,7 @@ class MonoPackageManager_Resources {
 		"System.ServiceModel.Security.dll",
 		"System.Threading.Timer.dll",
 		"System.ServiceModel.Internals.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

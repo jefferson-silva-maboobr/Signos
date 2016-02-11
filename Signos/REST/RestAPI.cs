@@ -12,7 +12,7 @@ namespace Zodiaco
 {
 	public class RestAPI
 	{
-		private static string ENDPOINT = "http://www.json-generator.com/api/json/get/cdOdXMaMwO?indent=2";
+		private static string ENDPOINT = "https://docs.google.com/uc?export=download&id=0B6kcFtMPtqWAa3RXMFZ2Nkh0TU0";
 		private static RestAPI _instance;
 
 		public static RestAPI Instance {

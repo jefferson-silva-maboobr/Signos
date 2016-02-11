@@ -2,6 +2,7 @@
 
 using Xamarin.Forms;
 using System.Collections.Generic;
+using Signos;
 
 namespace Zodiaco
 {
@@ -68,11 +69,12 @@ namespace Zodiaco
 			/******************************************
 			* Card Message
 			******************************************/
-			_titleCardHeader = new Label {
+			_titleCardHeader = new StyledLabel {
 				FontSize = 30,
 				TextColor = Color.White,
 				XAlign = TextAlignment.Center,
-				YAlign = TextAlignment.Center
+				YAlign = TextAlignment.Center,
+				Style = StyleType.Bold
 			};
 
 			_backgroudHeader = new RelativeLayout ();
@@ -92,16 +94,16 @@ namespace Zodiaco
 				}));
 
 			_message = new Label {
-				FontSize = 14,
-				TextColor = Color.Gray,
-				XAlign = TextAlignment.Center,
+				FontSize = 16,
+				TextColor = Color.Gray
 			};
 
 			RelativeLayout _cardMessageInside = new RelativeLayout ();
 			_cardMessageInside.WidthRequest = 200;
-			_cardMessageInside.HeightRequest = 160;
+			_cardMessageInside.HeightRequest = 145;
 			_cardMessageInside.BackgroundColor = Color.White;
 			_cardMessageInside.GestureRecognizers.Add (HideCardGestureRecognizer);
+			_cardMessageInside.Padding = new Thickness (15, 5, 15, 10);
 
 			_cardMessageInside.Children.Add (_message, 
 				Constraint.Constant (0), 
@@ -145,13 +147,15 @@ namespace Zodiaco
 			* Create and put items in grid
 			******************************************/
 			foreach (SignoItem signo in signos) {
+				string name = signo.name.Split ("".ToCharArray ()) [0];
 				Label label = new Label {
-					Text = signo.name,
+					Text = name,
 					FontSize = 16,
-					TextColor = Color.FromHex("#" + signo.color),
+					TextColor = Color.FromHex ("#" + signo.color),
 					BackgroundColor = Color.Transparent,
 					XAlign = TextAlignment.Center,
-					YAlign = TextAlignment.Center
+					YAlign = TextAlignment.Center,
+					FontFamily = "Margot-Regular"
 				};
 
 				Image image = new Image {
@@ -183,8 +187,8 @@ namespace Zodiaco
 					screenLayout
 				},
 				Spacing = 20,
-				Padding = new Thickness (0,10,0,20),
-				BackgroundColor = Color.FromHex("#464646")
+				Padding = new Thickness (0, 10, 0, 20),
+				BackgroundColor = Color.FromHex ("#464646")
 			};
 		}
 
@@ -196,8 +200,8 @@ namespace Zodiaco
 			}
 
 			_message.Text = signo.message;
-			_titleCardHeader.Text = signo.name;
-			_backgroudHeader.BackgroundColor = Color.FromHex("#" + signo.color);
+			_titleCardHeader.Text = signo.name.Split ("".ToCharArray ()) [0];
+			_backgroudHeader.BackgroundColor = Color.FromHex ("#" + signo.color);
 			_cardLayout.IsVisible = true;
 		}
 

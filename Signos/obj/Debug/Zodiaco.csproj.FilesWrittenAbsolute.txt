@@ -1,8 +1,4 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/Signos/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/Signos.dll.mdb
-/Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/Signos.dll
-/Users/Emprestimo/Projects/Xamarin/Signos/Signos/obj/Debug/Signos.dll
-/Users/Emprestimo/Projects/Xamarin/Signos/Signos/obj/Debug/Signos.dll.mdb
 /Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/Xamarin.Forms.Core.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/SQLitePCL.raw.dll
@@ -11,3 +7,7 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/System.Net.Http.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/System.Net.Http.Primitives.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/System.Net.Http.Extensions.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/Signos.dll.mdb
+/Users/Emprestimo/Projects/Xamarin/Signos/Signos/bin/Debug/Signos.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Signos/obj/Debug/Signos.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Signos/obj/Debug/Signos.dll.mdb

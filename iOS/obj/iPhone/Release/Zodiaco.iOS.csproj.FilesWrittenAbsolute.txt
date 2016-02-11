@@ -10,3 +10,5 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.dll.mdb
 /Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Newtonsoft.Json.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.iOS.exe.mdb
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.iOS.exe

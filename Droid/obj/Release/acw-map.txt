@@ -2,6 +2,10 @@ Zodiaco.Droid.MainActivity, Signos.Droid;md523e89f69c92a609ea75111f349049cb8.Mai
 Zodiaco.Droid.MainActivity, Signos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md523e89f69c92a609ea75111f349049cb8.MainActivity
 Zodiaco.Droid.MainActivity;md523e89f69c92a609ea75111f349049cb8.MainActivity
 zodiaco.droid.MainActivity;md523e89f69c92a609ea75111f349049cb8.MainActivity
+Customization.Droid.StyledLabelRenderer, Signos.Droid;md52c1a2ecc2d36b18d7e812608e4fa010b.StyledLabelRenderer
+Customization.Droid.StyledLabelRenderer, Signos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52c1a2ecc2d36b18d7e812608e4fa010b.StyledLabelRenderer
+Customization.Droid.StyledLabelRenderer;md52c1a2ecc2d36b18d7e812608e4fa010b.StyledLabelRenderer
+customization.droid.StyledLabelRenderer;md52c1a2ecc2d36b18d7e812608e4fa010b.StyledLabelRenderer
 Android.Support.V4.App.FragmentManager/IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
 Android.Support.V4.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
 Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor

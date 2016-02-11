@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Signos
+namespace Zodiaco
 {
 	public class SignoItemVM
 	{

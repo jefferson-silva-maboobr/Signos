@@ -8,7 +8,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Diagnostics;
 
-namespace Signos
+namespace Zodiaco
 {
 	public class RestAPI
 	{
@@ -50,13 +50,10 @@ namespace Signos
 			var httpClient = new HttpClient ();
 			Task<string> downloadTask = httpClient.GetStringAsync (ENDPOINT);
 			string content = await downloadTask;	
-			Debug.WriteLine ("Response: \r\n {0}", content);
 
 			// de-serializing json response into list
 			JArray jsonResponse = JArray.Parse (content);
 			restList = jsonResponse.ToObject<List<SignoItem>> ();
-
-			Debug.WriteLine ("Response: \r\n {0}", restList);
 
 			return restList;
 		}

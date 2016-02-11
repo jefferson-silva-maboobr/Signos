@@ -1,0 +1,41 @@
+﻿<Properties StartupItem="Droid/Zodiaco.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat) - API 19" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="Signos/View/UIPanel.cs" Line="157" Column="24" />
+      <File FileName="Droid/MainActivity.cs" Line="13" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Zodiaco" expanded="True" selected="True">
+            <Node name="Signos" expanded="True">
+              <Node name="DB" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="REST" expanded="True" />
+              <Node name="View" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
+            </Node>
+            <Node name="Signos.Droid" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="DB" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable-hdpi" expanded="True" />
+                <Node name="drawable-xhdpi" expanded="True" />
+                <Node name="drawable-xxhdpi" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Signos.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="DB" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

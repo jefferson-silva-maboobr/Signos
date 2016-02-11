@@ -72,19 +72,22 @@ namespace Signos.Droid
 			public const int libra = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int peixes = 2130837513;
+			public const int logo_zodiaco = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int sagitario = 2130837514;
+			public const int peixes = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int splash_bg = 2130837515;
+			public const int sagitario = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int tauro = 2130837516;
+			public const int splash = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int virgem = 2130837517;
+			public const int touro = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int virgem = 2130837518;
 			
 			static Drawable()
 			{

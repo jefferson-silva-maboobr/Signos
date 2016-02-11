@@ -1,7 +1,7 @@
-Signos.Droid.MainActivity, Signos.Droid;md5602e8d61b15e58571a656a7a3d6b2b1c.MainActivity
-Signos.Droid.MainActivity, Signos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5602e8d61b15e58571a656a7a3d6b2b1c.MainActivity
-Signos.Droid.MainActivity;md5602e8d61b15e58571a656a7a3d6b2b1c.MainActivity
-signos.droid.MainActivity;md5602e8d61b15e58571a656a7a3d6b2b1c.MainActivity
+Zodiaco.Droid.MainActivity, Signos.Droid;md523e89f69c92a609ea75111f349049cb8.MainActivity
+Zodiaco.Droid.MainActivity, Signos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md523e89f69c92a609ea75111f349049cb8.MainActivity
+Zodiaco.Droid.MainActivity;md523e89f69c92a609ea75111f349049cb8.MainActivity
+zodiaco.droid.MainActivity;md523e89f69c92a609ea75111f349049cb8.MainActivity
 Android.Support.V4.App.FragmentManager/IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
 Android.Support.V4.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
 Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor

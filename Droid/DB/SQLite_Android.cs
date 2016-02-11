@@ -1,9 +1,9 @@
 ﻿using System.IO;
-using Signos.Droid.DB;
 using SQLite;
+using Zodiaco.Droid.DB;
 
 [assembly: Xamarin.Forms.Dependency (typeof(SQLite_Android))]
-namespace Signos.Droid.DB
+namespace Zodiaco.Droid.DB
 {
 	public class SQLite_Android : ISQLite
 	{

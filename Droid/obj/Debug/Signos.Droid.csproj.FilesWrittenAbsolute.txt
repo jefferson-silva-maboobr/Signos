@@ -37,3 +37,17 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/uploadflags.txt
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/Signos.Droid.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/Signos.Droid.dll.mdb
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/aquario.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/aries.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/cancer.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/capricornio.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/escorpiao.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/gemeos.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/leao.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/libra.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/logo_zodiaco.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/peixes.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/sagitario.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/splash.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/touro.png
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/res/drawable-xhdpi/virgem.png

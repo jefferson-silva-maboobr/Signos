@@ -1,7 +1,7 @@
 ﻿using System;
 using SQLite;
 
-namespace Signos
+namespace Zodiaco
 {
 	public interface ISQLite
 	{

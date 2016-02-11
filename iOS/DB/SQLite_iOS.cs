@@ -1,16 +1,17 @@
-﻿using Signos.Droid.DB;
+﻿
 using System;
 using System.IO;
 using SQLite;
+using Zodiaco.iOS.DB;
 
 [assembly: Xamarin.Forms.Dependency (typeof(SQLite_iOS))]
-namespace Signos.Droid.DB
+namespace Zodiaco.iOS.DB
 {
 	public class SQLite_iOS : ISQLite
 	{
 		public SQLiteConnection GetConnection ()
 		{
-			var filename = "SignosDB.db3";
+			var filename = "ZodiacoDB.db3";
                 string folder =
                     Environment.GetFolderPath (Environment.SpecialFolder.Personal);
                 string libraryFolder = Path.Combine (folder, "..", "Library");

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using SQLite;
 
-namespace Signos
+namespace Zodiaco
 {
 	public class SignoItem : IObject
 	{

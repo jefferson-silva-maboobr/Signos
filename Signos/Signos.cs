@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Signos
+namespace Zodiaco
 {
 	public class App : Application
 	{

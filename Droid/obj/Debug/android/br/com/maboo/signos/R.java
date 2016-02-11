@@ -20,10 +20,11 @@ public final class R {
         public static final int icon=0x7f020006;
         public static final int leao=0x7f020007;
         public static final int libra=0x7f020008;
-        public static final int peixes=0x7f020009;
-        public static final int sagitario=0x7f02000a;
-        public static final int splash_bg=0x7f02000b;
-        public static final int tauro=0x7f02000c;
-        public static final int virgem=0x7f02000d;
+        public static final int logo_zodiaco=0x7f020009;
+        public static final int peixes=0x7f02000a;
+        public static final int sagitario=0x7f02000b;
+        public static final int splash=0x7f02000c;
+        public static final int touro=0x7f02000d;
+        public static final int virgem=0x7f02000e;
     }
 }

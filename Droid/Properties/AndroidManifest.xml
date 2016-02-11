@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.com.maboo.signos" android:versionCode="2" android:versionName="2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.com.maboo.zodiaco" android:versionCode="3" android:versionName="3">
 	<uses-sdk android:minSdkVersion="15" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="Signos">Signos</application>
+	<application android:label="Zodiaco">Signos</application>
 </manifest>

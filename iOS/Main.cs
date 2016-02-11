@@ -18,4 +18,3 @@ namespace Signos.iOS
 		}
 	}
 }
-

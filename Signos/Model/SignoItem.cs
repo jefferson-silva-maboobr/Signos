@@ -24,6 +24,9 @@ namespace Zodiaco
 		[MaxLength (10)]
 		public long timestamp { get; set; }
 
+		[MaxLength (6)]
+		public string color { get; set; }
+
 		/*******************
 		* Database methods
 		********************/

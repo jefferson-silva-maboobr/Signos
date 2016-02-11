@@ -21,7 +21,7 @@ namespace Zodiaco
 		{
 			Image image = new Image {
 				Source = SplashBGResource,
-				Aspect = Aspect.Fill
+				Aspect = Aspect.AspectFit,
 			};
 
 			this.Content = new StackLayout {

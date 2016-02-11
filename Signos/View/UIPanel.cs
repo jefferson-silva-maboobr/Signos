@@ -10,6 +10,7 @@ namespace Zodiaco
 		StackLayout _cardLayout;
 		private Label _message;
 		private Label _titleCardHeader;
+		private RelativeLayout _backgroudHeader;
 
 		public UIPanel ()
 		{
@@ -31,17 +32,18 @@ namespace Zodiaco
 				Source = new FileImageSource () { File = "logo_zodiaco.png" },
 				Aspect = Aspect.AspectFit,
 				HorizontalOptions = LayoutOptions.Center,
-				WidthRequest = 65,
-				HeightRequest = 65,
+				BackgroundColor = Color.Transparent,
+				WidthRequest = 75,
+				HeightRequest = 75,
 			};
 
 			/******************************************
 			* Grid
 			******************************************/
 			Grid grid = new Grid {
-				VerticalOptions = LayoutOptions.Fill,
-				RowSpacing = -55,
-				ColumnSpacing = -55,
+				VerticalOptions = LayoutOptions.FillAndExpand,
+				RowSpacing = -100,
+				ColumnSpacing = -50,
 			};
 			var HideCardGestureRecognizer = new TapGestureRecognizer ();
 			HideCardGestureRecognizer.Tapped += (s, e) => {
@@ -49,6 +51,9 @@ namespace Zodiaco
 			};
 			grid.GestureRecognizers.Add (HideCardGestureRecognizer);
 
+			/******************************************
+			* Screen layout
+			******************************************/
 			RelativeLayout screenLayout = new RelativeLayout ();
 			screenLayout.Children.Add (grid, 
 				Constraint.Constant (0), 
@@ -70,9 +75,9 @@ namespace Zodiaco
 				YAlign = TextAlignment.Center
 			};
 
-			RelativeLayout backgroudHeader = new RelativeLayout ();
-			backgroudHeader.BackgroundColor = Color.Red;
-			backgroudHeader.Children.Add (_titleCardHeader, 
+			_backgroudHeader = new RelativeLayout ();
+			_backgroudHeader.BackgroundColor = Color.Red;
+			_backgroudHeader.Children.Add (_titleCardHeader, 
 				Constraint.RelativeToParent ((parent) => {
 					return parent.Width / 2 - _titleCardHeader.Width / 2;
 				}),
@@ -110,8 +115,9 @@ namespace Zodiaco
 
 			_cardLayout = new StackLayout ();
 			_cardLayout.IsVisible = false;
-			_cardLayout.Children.Add (backgroudHeader);
+			_cardLayout.Children.Add (_backgroudHeader);
 			_cardLayout.Children.Add (_cardMessageInside);
+			_cardLayout.Spacing = 0;
 
 			screenLayout.Children.Add (_cardLayout, 
 				Constraint.RelativeToParent ((parent) => {
@@ -139,12 +145,10 @@ namespace Zodiaco
 			* Create and put items in grid
 			******************************************/
 			foreach (SignoItem signo in signos) {
-				BackgroundColor = Color.Gray;
-
 				Label label = new Label {
 					Text = signo.name,
 					FontSize = 16,
-					TextColor = Color.White,
+					TextColor = Color.FromHex("#" + signo.color),
 					BackgroundColor = Color.Transparent,
 					XAlign = TextAlignment.Center,
 					YAlign = TextAlignment.Center
@@ -173,13 +177,14 @@ namespace Zodiaco
 			/******************************************
 			* Mount view
 			******************************************/
-			this.Padding = new Thickness (30, Device.OnPlatform (20, 0, 0), 30, 20);
-
 			this.Content = new StackLayout {
 				Children = {
 					headerIcon,
 					screenLayout
-				}
+				},
+				Spacing = 20,
+				Padding = new Thickness (0,10,0,20),
+				BackgroundColor = Color.FromHex("#464646")
 			};
 		}
 
@@ -192,6 +197,7 @@ namespace Zodiaco
 
 			_message.Text = signo.message;
 			_titleCardHeader.Text = signo.name;
+			_backgroudHeader.BackgroundColor = Color.FromHex("#" + signo.color);
 			_cardLayout.IsVisible = true;
 		}
 

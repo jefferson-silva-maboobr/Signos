@@ -1,0 +1,12 @@
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/optimized/
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/Signos.iOS.exe
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/obj/iPhone/Release/Signos.iOS.exe.mdb
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Xamarin.Forms.Platform.iOS.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Xamarin.Forms.Core.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Xamarin.Forms.Xaml.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/SQLite-net.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/SQLitePCL.raw.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Signos.dll.mdb
+/Users/Emprestimo/Projects/Xamarin/Signos/iOS/bin/iPhone/Release/Newtonsoft.Json.dll

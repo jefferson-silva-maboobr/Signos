@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style
+    name="Theme.Splash"
+    parent="android:Theme.Holo.Light">
+    <item
+        name="android:windowBackground" />
+    <item
+        name="android:windowNoTitle" />
+</style>

@@ -27,4 +27,7 @@ public final class R {
         public static final int touro=0x7f02000d;
         public static final int virgem=0x7f02000e;
     }
+    public static final class style {
+        public static final int Theme_Splash=0x7f030000;
+    }
 }

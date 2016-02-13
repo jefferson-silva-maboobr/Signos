@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZeroFive.Forms.Images.iOS</name>
+    </assembly>
+    <members>
+        <member name="T:ZeroFive.Forms.Images.iOS.RoundedImageRenderer">
+            <summary>
+            ImageCircle Implementation
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.iOS.RoundedImageRenderer.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.iOS.RoundedImageRenderer.OnElementChanged(Xamarin.Forms.Platform.iOS.ElementChangedEventArgs{Xamarin.Forms.Image})">
+            <summary>
+            Handles the element changed event.
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.iOS.RoundedImageRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Handles the element property changed event.
+            </summary></member>
+        <member name="T:ZeroFive.Forms.Images.iOS.TintedImageRenderer">
+            <summary>
+            Tinted image renderer.
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.iOS.TintedImageRenderer.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.iOS.TintedImageRenderer.OnElementChanged(Xamarin.Forms.Platform.iOS.ElementChangedEventArgs{Xamarin.Forms.Image})">
+            <summary>
+            Handles the element changed event.
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.iOS.TintedImageRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Handles the element property changed event.
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.iOS.TintedImageRenderer.UpdateTintcolor">
+            <summary>
+            Updates the tint color.
+            </summary></member>
+    </members>
+</doc>

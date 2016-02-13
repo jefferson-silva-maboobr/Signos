@@ -3,15 +3,21 @@
   <Jars></Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/ZeroFive.Forms.Images.Droid/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/SQLitePCL.raw/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/ZeroFive.Forms.Images.Droid/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/SQLitePCL.raw/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/ZeroFive.Forms.Images.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/__library_projects__/SQLitePCL.raw.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

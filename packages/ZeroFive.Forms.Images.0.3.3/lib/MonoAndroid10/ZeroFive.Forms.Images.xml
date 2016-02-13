@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZeroFive.Forms.Images</name>
+    </assembly>
+    <members>
+        <member name="T:ZeroFive.Forms.Images.RoundedImage">
+            <summary>
+            Rounded image.
+            </summary></member>
+        <member name="F:ZeroFive.Forms.Images.RoundedImage.BorderThicknessProperty">
+            <summary>
+            Thickness property of border
+            </summary></member>
+        <member name="P:ZeroFive.Forms.Images.RoundedImage.BorderThickness">
+            <summary>
+            Border thickness of image
+            </summary></member>
+        <member name="F:ZeroFive.Forms.Images.RoundedImage.BorderColorProperty">
+            <summary>
+            Color property of border
+            </summary></member>
+        <member name="P:ZeroFive.Forms.Images.RoundedImage.BorderColor">
+            <summary>
+            Border Color of image
+            </summary></member>
+        <member name="F:ZeroFive.Forms.Images.RoundedImage.BorderRadiusProperty">
+            <summary>
+            The border radius property.
+            </summary></member>
+        <member name="P:ZeroFive.Forms.Images.RoundedImage.BorderRadius">
+            <summary>
+            Border radius of image.
+            </summary></member>
+        <member name="F:ZeroFive.Forms.Images.TintedImage.TintColorProperty">
+            <summary>
+            The tint color property.
+            </summary></member>
+        <member name="P:ZeroFive.Forms.Images.TintedImage.TintColor">
+            <summary>
+            Gets or sets the color of the tint.
+            </summary></member>
+    </members>
+</doc>

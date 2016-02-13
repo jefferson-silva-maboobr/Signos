@@ -3,12 +3,15 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/System.Xml.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Mono.Android.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v4.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/SQLite-net.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Mono.CSharp.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/FormsViewGroup.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Xamarin.Forms.Core.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
-/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/SQLite-net.dll
-/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Mono.CSharp.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Xamarin.Forms.Platform.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/ZeroFive.Forms.Images.Droid.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/ZeroFive.Forms.Images.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/SQLitePCL.raw.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/System.Core.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Debug/assemblies/Signos.dll

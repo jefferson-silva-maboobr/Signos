@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZeroFive.Forms.Images.Droid</name>
+    </assembly>
+    <members>
+        <member name="T:ZeroFive.Forms.Images.Droid.RoundedImageRenderer">
+            <summary>
+            Rounded image renderer.
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.Droid.RoundedImageRenderer.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.Droid.RoundedImageRenderer.OnElementChanged(Xamarin.Forms.Platform.Android.ElementChangedEventArgs{Xamarin.Forms.Image})">
+            <summary>
+            Handles the element changed event.
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.Droid.RoundedImageRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Handles the element property changed event.
+            </summary></member>
+        <member name="M:ZeroFive.Forms.Images.Droid.RoundedImageRenderer.DrawChild(Android.Graphics.Canvas,Android.Views.View,System.Int64)">
+            <summary>
+            Redraws the child.
+            </summary></member>
+    </members>
+</doc>

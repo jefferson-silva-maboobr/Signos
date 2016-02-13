@@ -2,7 +2,7 @@ package md52c1a2ecc2d36b18d7e812608e4fa010b;
 
 
 public class StyledLabelRenderer
-	extends md53d543179a8e0b35fe087ec2065efd0d5.LabelRenderer
+	extends md5530bd51e982e6e7b340b73e88efe666e.LabelRenderer
 	implements
 		mono.android.IGCUserPeer
 {

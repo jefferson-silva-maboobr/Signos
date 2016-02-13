@@ -34,3 +34,4 @@
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/bin/Release/Signos.dll
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/bin/Release/Signos.dll.mdb
 /Users/Emprestimo/Projects/Xamarin/Signos/Droid/bin/Release/Newtonsoft.Json.dll
+/Users/Emprestimo/Projects/Xamarin/Signos/Droid/obj/Release/res/values/styles.xml

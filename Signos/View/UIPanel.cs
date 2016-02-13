@@ -9,10 +9,10 @@ namespace Zodiaco
 {
 	public class UIPanel : ContentPage
 	{
-		StackLayout _cardLayout;
 		private Label _message;
 		private Label _titleCardHeader;
-		private RelativeLayout _backgroudHeader;
+		private RelativeLayout _cardHeader;
+		private RelativeLayout _blackMirror;
 
 		public UIPanel ()
 		{
@@ -54,7 +54,7 @@ namespace Zodiaco
 			grid.GestureRecognizers.Add (HideCardGestureRecognizer);
 
 			/******************************************
-			* Screen layout
+			* Screen layout with grid
 			******************************************/
 			RelativeLayout screenLayout = new RelativeLayout ();
 			screenLayout.Children.Add (grid, 
@@ -68,7 +68,28 @@ namespace Zodiaco
 				}));
 
 			/******************************************
-			* Card Message
+			* Black mirror all screen
+			******************************************/
+			_blackMirror = new RelativeLayout ();
+			_blackMirror.IsVisible = false;
+			_blackMirror.GestureRecognizers.Add (HideCardGestureRecognizer);
+
+			Image cardShadowBG = new Image();
+			cardShadowBG.Aspect = Aspect.Fill;
+			cardShadowBG.Source =  new FileImageSource () { File = "window_shadow.png" };
+
+			_blackMirror.Children.Add (cardShadowBG, 
+				Constraint.Constant (0), 
+				Constraint.Constant (0),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Width;
+				}),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Height;
+				}));
+
+			/******************************************
+			* Title Card
 			******************************************/
 			_titleCardHeader = new StyledLabel {
 				FontSize = 30,
@@ -78,9 +99,24 @@ namespace Zodiaco
 				Style = StyleType.Bold
 			};
 
-			_backgroudHeader = new RelativeLayout ();
-			_backgroudHeader.BackgroundColor = Color.Red;
-			_backgroudHeader.Children.Add (_titleCardHeader, 
+			_cardHeader = new RelativeLayout ();
+			_cardHeader.BackgroundColor = Color.Transparent;
+
+			Image titleCardBG = new Image();
+			titleCardBG.Aspect = Aspect.AspectFit;
+			titleCardBG.Source =  new FileImageSource () { File = "card_title.png" };
+
+			_cardHeader.Children.Add (titleCardBG, 
+				Constraint.Constant (0), 
+				Constraint.Constant (0),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Width;
+				}),
+				Constraint.RelativeToParent ((parent) => {
+					return 55;
+				}));
+
+			_cardHeader.Children.Add (_titleCardHeader, 
 				Constraint.RelativeToParent ((parent) => {
 					return parent.Width / 2 - _titleCardHeader.Width / 2;
 				}),
@@ -94,18 +130,34 @@ namespace Zodiaco
 					return 45;
 				}));
 
+			/******************************************
+			* Message Card
+			******************************************/
 			_message = new Label {
 				FontSize = 12,
 				TextColor = Color.Gray,
-				XAlign = TextAlignment.Center,
+				XAlign = TextAlignment.Start,
 				YAlign = TextAlignment.Center
 			};
 
-			RelativeLayout _cardMessageInside = new RelativeLayout ();
-			_cardMessageInside.BackgroundColor = Color.White;
-			_cardMessageInside.GestureRecognizers.Add (HideCardGestureRecognizer);
+			RelativeLayout _cardMessage = new RelativeLayout ();
+			_cardMessage.BackgroundColor = Color.Transparent;
 
-			_cardMessageInside.Children.Add (_message, 
+			Image messageCardBG = new Image();
+			messageCardBG.Aspect = Aspect.Fill;
+			messageCardBG.Source =  new FileImageSource () { File = "card_msg.png" };
+
+			_cardMessage.Children.Add (messageCardBG, 
+				Constraint.Constant (0), 
+				Constraint.Constant (0),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Width;
+				}),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Height;
+				}));
+
+			_cardMessage.Children.Add (_message, 
 				Constraint.RelativeToParent ((parent) => {
 					return (parent.Width / 2) - (_message.Width / 2);
 				}),
@@ -119,26 +171,31 @@ namespace Zodiaco
 					return 120;
 				}));
 
-			_cardLayout = new StackLayout ();
-			_cardLayout.IsVisible = false;
-			_cardLayout.Children.Add (_backgroudHeader);
-			_cardLayout.Children.Add (_cardMessageInside);
-			_cardLayout.Spacing = 0;
+			/******************************************
+			* Card
+			******************************************/
+			StackLayout cardLayout = new StackLayout ();
+			cardLayout.Children.Add (_cardHeader);
+			cardLayout.Children.Add (_cardMessage);
+			cardLayout.Spacing = 0;
 
-			screenLayout.Children.Add (_cardLayout, 
+			_blackMirror.Children.Add (cardLayout, 
 				Constraint.RelativeToParent ((parent) => {
-					return parent.Width / 2 - _cardLayout.Width / 2;
+					return parent.Width / 2 - cardLayout.Width / 2;
 				}),
 				Constraint.RelativeToParent ((parent) => {
-					return 120;
+					return 180;
 				}),
 				Constraint.RelativeToParent ((parent) => {
 					return parent.Width / 1.3;
 				}),
 				Constraint.RelativeToParent ((parent) => {
-					return parent.Height / 5;
+					return parent.Height / 3;
 				}));
 
+			/******************************************
+			* Create and put items in grid
+			******************************************/
 			int countPos = 0;
 			int[][] pos = new int[][] {
 				new int[] { 0, 0 }, new int[] { 1, 0 }, new int[] { 2, 0 },
@@ -147,9 +204,6 @@ namespace Zodiaco
 				new int[] { 0, 3 }, new int[] { 1, 3 }, new int[] { 2, 3 },
 			};
 
-			/******************************************
-			* Create and put items in grid
-			******************************************/
 			foreach (SignoItem signo in signos) {
 				string name = signo.name.Split ("".ToCharArray ()) [0];
 				Label label = new Label {
@@ -182,9 +236,9 @@ namespace Zodiaco
 			}
 
 			/******************************************
-			* Mount view
+			* Scene = header and grid
 			******************************************/
-			this.Content = new StackLayout {
+			StackLayout scene = new StackLayout {
 				Children = {
 					headerIcon,
 					screenLayout
@@ -193,24 +247,54 @@ namespace Zodiaco
 				Padding = new Thickness (0, 10, 0, 20),
 				BackgroundColor = Color.FromHex ("#464646")
 			};
+
+			/******************************************
+			* Scene = header and grid + blackShadow in all screen
+			******************************************/
+			RelativeLayout sceneFull = new RelativeLayout ();
+			sceneFull.Children.Add (scene, 
+				Constraint.Constant (0), 
+				Constraint.Constant (0),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Width;
+				}),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Height;
+				}));
+			sceneFull.Children.Add (_blackMirror, 
+				Constraint.Constant (0), 
+				Constraint.Constant (0),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Width;
+				}),
+				Constraint.RelativeToParent ((parent) => {
+					return parent.Height;
+				}));
+
+
+			this.Content = new StackLayout {
+				Children = {
+					sceneFull
+				}
+			};
 		}
 
 		void ShowCardMessage (object sender, EventArgs e, SignoItem signo)
 		{
-			if (_cardLayout.IsVisible) {
+			if (_blackMirror.IsVisible) {
 				HideCardMessage (sender, e);
 				return;
 			}
 
 			_message.Text = signo.message;
 			_titleCardHeader.Text = signo.name.Split ("".ToCharArray ()) [0];
-			_backgroudHeader.BackgroundColor = Color.FromHex ("#" + signo.color);
-			_cardLayout.IsVisible = true;
+			//_backgroudHeader.BackgroundColor = Color.FromHex ("#" + signo.color);
+			_blackMirror.IsVisible = true;
 		}
 
 		void HideCardMessage (object sender, EventArgs e)
 		{
-			_cardLayout.IsVisible = false;
+			_blackMirror.IsVisible = false;
 		}
 	}
 }

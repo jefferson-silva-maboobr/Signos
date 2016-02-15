@@ -16,19 +16,18 @@ public final class R {
         public static final int cancer=0x7f020002;
         public static final int capricornio=0x7f020003;
         public static final int card_msg=0x7f020004;
-        public static final int card_title=0x7f020005;
-        public static final int escorpiao=0x7f020006;
-        public static final int gemeos=0x7f020007;
-        public static final int icon=0x7f020008;
-        public static final int leao=0x7f020009;
-        public static final int libra=0x7f02000a;
-        public static final int logo_zodiaco=0x7f02000b;
-        public static final int peixes=0x7f02000c;
-        public static final int sagitario=0x7f02000d;
-        public static final int splash=0x7f02000e;
-        public static final int touro=0x7f02000f;
-        public static final int virgem=0x7f020010;
-        public static final int window_shadow=0x7f020011;
+        public static final int escorpiao=0x7f020005;
+        public static final int gemeos=0x7f020006;
+        public static final int icon=0x7f020007;
+        public static final int leao=0x7f020008;
+        public static final int libra=0x7f020009;
+        public static final int logo_zodiaco=0x7f02000a;
+        public static final int peixes=0x7f02000b;
+        public static final int sagitario=0x7f02000c;
+        public static final int splash=0x7f02000d;
+        public static final int touro=0x7f02000e;
+        public static final int virgem=0x7f02000f;
+        public static final int window_shadow=0x7f020010;
     }
     public static final class string {
         public static final int ApplicationName=0x7f030002;

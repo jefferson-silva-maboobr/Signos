@@ -13,6 +13,7 @@ namespace Zodiaco
 		private Label _titleCardHeader;
 		private RelativeLayout _cardHeader;
 		private RelativeLayout _blackMirror;
+		private Image _frameHeaderCard;
 
 		public UIPanel ()
 		{
@@ -74,11 +75,11 @@ namespace Zodiaco
 			_blackMirror.IsVisible = false;
 			_blackMirror.GestureRecognizers.Add (HideCardGestureRecognizer);
 
-			Image cardShadowBG = new Image();
-			cardShadowBG.Aspect = Aspect.Fill;
-			cardShadowBG.Source =  new FileImageSource () { File = "window_shadow.png" };
+			Image windowShadow = new Image();
+			windowShadow.Aspect = Aspect.Fill;
+			windowShadow.Source =  new FileImageSource () { File = "window_shadow.png" };
 
-			_blackMirror.Children.Add (cardShadowBG, 
+			_blackMirror.Children.Add (windowShadow, 
 				Constraint.Constant (0), 
 				Constraint.Constant (0),
 				Constraint.RelativeToParent ((parent) => {
@@ -100,13 +101,12 @@ namespace Zodiaco
 			};
 
 			_cardHeader = new RelativeLayout ();
-			_cardHeader.BackgroundColor = Color.Transparent;
 
-			Image titleCardBG = new Image();
-			titleCardBG.Aspect = Aspect.AspectFit;
-			titleCardBG.Source =  new FileImageSource () { File = "card_title.png" };
+			_frameHeaderCard = new Image();
+			_frameHeaderCard.Aspect = Aspect.AspectFit;
+			_frameHeaderCard.Source =  new FileImageSource () { File = "card_title_00bbb5.png" };
 
-			_cardHeader.Children.Add (titleCardBG, 
+			_cardHeader.Children.Add (_frameHeaderCard, 
 				Constraint.Constant (0), 
 				Constraint.Constant (0),
 				Constraint.RelativeToParent ((parent) => {
@@ -288,7 +288,8 @@ namespace Zodiaco
 
 			_message.Text = signo.message;
 			_titleCardHeader.Text = signo.name.Split ("".ToCharArray ()) [0];
-			//_backgroudHeader.BackgroundColor = Color.FromHex ("#" + signo.color);
+			_cardHeader.BackgroundColor = Color.FromHex ("#" + signo.color);
+			_frameHeaderCard.Source =  new FileImageSource () { File = "card_title_"+signo.color+".png" };
 			_blackMirror.IsVisible = true;
 		}
 

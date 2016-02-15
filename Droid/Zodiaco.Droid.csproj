@@ -89,6 +89,10 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <None Include="Resources\drawable-xhdpi\card_title_00bbb5.png" />
+    <None Include="Resources\drawable-xhdpi\card_title_00d7eb.png" />
+    <None Include="Resources\drawable-xhdpi\card_title_fe6665.png" />
+    <None Include="Resources\drawable-xhdpi\card_title_ffb059.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\layout\" />
@@ -117,7 +121,6 @@
     <AndroidResource Include="Resources\drawable-xhdpi\virgem.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\values\styles.xml" />
-    <AndroidResource Include="Resources\drawable-xhdpi\card_title.png" />
     <AndroidResource Include="Resources\drawable\window_shadow.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\card_msg.png" />
   </ItemGroup>
